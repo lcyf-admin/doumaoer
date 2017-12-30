@@ -1,0 +1,37 @@
+<!--index.wxml-->
+  <view class="imginfo">
+    <image  class="homeimg" mode="aspectFit" src="../img/header.png" background-size="cover">
+    </image>
+  </view>
+<view class="container">
+  <view class="userinfo">
+  <view class="neirong">
+      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/happy.gif"></image>
+    </view>
+  </view>
+  <view class="userinfo">
+  <view class="neirong">
+      <image bindtap="bindSadTap" class="userinfo-avatar"   src="../img/sad.gif"></image>
+    </view>
+  </view>
+  <view class="userinfo">
+  <view class="neirong">
+      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/angry.gif"></image>
+    </view>
+  </view>
+  <view class="userinfo">
+  <view class="neirong">
+      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/lovely.gif"></image>
+    </view>
+  </view>
+</view>
+ <view class="usermotto" style='background-color:#ffc0cb;width:100%'>
+    <text class="user-motto">@copyright 逗猫玩儿</text>
+  </view>
+<view class="row">
+    <view class="col">
+        <view class="col-4">111111</view>
+        <view class="col-4">333333</view>
+        <view class="col-4">222222</view>
+    </view>
+</view>
