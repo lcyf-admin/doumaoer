@@ -3,20 +3,34 @@
 const app = getApp()
 
 Page({
-  data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+  onReady: function (e) {
+    // 使用 wx.createAudioContext 获取 audio 上下文 context
+    this.audioCtx = wx.createAudioContext('myAudio')
   },
-  //事件处理函数
-  bindHappyTap: function() {
-    console.log(11111111);
-    wx.playBackgroundAudio({
-      //播放地址
-      dataUrl: '../audio/angry.mp3'
-    })
+
+  bindHappyTap: function (e) {
+    var index = parseInt(e.currentTarget.dataset.index);
+    if (index==1){
+      this.setData({
+        src: "../audio/angry.mp3",
+      })
+    } else if (index == 2){
+      this.setData({
+        src: "../audio/greedy.mp3",
+      })
+    } else if (index == 3) {
+      this.setData({
+        src: "../audio/lovely.mp3",
+      })
+    } else if (index == 4) {
+      this.setData({
+        src: "../audio/mad.mp3",
+      })
+    }
+    this.audioCtx.play()
   },
+
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

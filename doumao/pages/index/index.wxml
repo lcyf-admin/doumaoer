@@ -5,33 +5,67 @@
   </view>
 <view class="container">
   <view class="userinfo">
-  <view class="neirong">
-      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/happy.gif"></image>
+
+ <audio  src="{{src}}" id="myAudio"></audio>
+ 
+
+ 
+
+    <view class="neirong" data-index='1' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/happy.gif"></image>
+      <b >开心</b>
     </view>
-  </view>
-  <view class="userinfo">
-  <view class="neirong">
-      <image bindtap="bindSadTap" class="userinfo-avatar"   src="../img/sad.gif"></image>
+
+
+    <view class="neirong" data-index='2' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/sad.gif"></image>
+      <text >逗猫玩儿</text>
     </view>
-  </view>
-  <view class="userinfo">
-  <view class="neirong">
-      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/angry.gif"></image>
+
+
+    <view class="neirong" data-index='3' bindtap="bindHappyTap">
+      <image  class="userinfo-avatar"   src="../img/angry.gif"></image>
     </view>
-  </view>
-  <view class="userinfo">
-  <view class="neirong">
-      <image bindtap="bindHappyTap" class="userinfo-avatar"   src="../img/lovely.gif"></image>
+
+
+    <view class="neirong" data-index='4' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/scared.gif"></image>
     </view>
-  </view>
+    
+    <view class="neirong" data-index='5' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/curious.gif"></image>
+    </view>
+
+    <view class="neirong" data-index='6' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+ 
+  <view class="neirong" data-index='7' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+     <view class="neirong" data-index='8' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+     <view class="neirong" data-index='9' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+     <view class="neirong" data-index='10' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+     <view class="neirong" data-index='11' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+     <view class="neirong" data-index='12' bindtap="bindHappyTap">
+      <image class="userinfo-avatar"   src="../img/blest.gif"></image>
+    </view>
+
+</view>
 </view>
  <view class="usermotto" style='background-color:#ffc0cb;width:100%'>
     <text class="user-motto">@copyright 逗猫玩儿</text>
   </view>
-<view class="row">
-    <view class="col">
-        <view class="col-4">111111</view>
-        <view class="col-4">333333</view>
-        <view class="col-4">222222</view>
-    </view>
-</view>
